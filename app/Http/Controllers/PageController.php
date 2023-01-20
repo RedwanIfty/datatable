@@ -16,7 +16,7 @@ class PageController extends Controller
     public function view()
     {
         $customer=Customer::all();
-        return view('pdfview')->with('customer',$customer);
+        return view('view')->with('customer',$customer);
     }
     
 }
